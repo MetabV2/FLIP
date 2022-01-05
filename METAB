@@ -1,0 +1,6 @@
+_G.Bin = true
+while _G.Bin do
+    wait()
+
+game:GetService("ReplicatedStorage").RemoteEvents.PlayersCar:FireServer("Flip")
+end
